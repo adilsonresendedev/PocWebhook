@@ -1,0 +1,6 @@
+@PocWebHook.ApiProducer_HostAddress = http://localhost:5177
+
+GET {{PocWebHook.ApiProducer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

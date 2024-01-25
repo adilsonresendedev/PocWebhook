@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PocWebHook.ApiProducer", "PocWebHook.ApiProducer\PocWebHook.ApiProducer.csproj", "{287F0E45-C9D1-4D64-8D00-41D4DA9EF57D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PocWebhook.Shared", "PocWebhook.Shared\PocWebhook.Shared.csproj", "{00357BB9-A59B-45C3-8CC3-EABF15D83070}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PocWebhook.ApiCRM", "PocWebhook.ApiCRM\PocWebhook.ApiCRM.csproj", "{E3EBF479-D265-40C4-8498-5FAC374458E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PocWebhook.Consumer", "PocWebhook.Consumer\PocWebhook.Consumer.csproj", "{9DF48E29-9FE6-4EE5-8549-5F7EA2A12BCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{287F0E45-C9D1-4D64-8D00-41D4DA9EF57D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{287F0E45-C9D1-4D64-8D00-41D4DA9EF57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{287F0E45-C9D1-4D64-8D00-41D4DA9EF57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{287F0E45-C9D1-4D64-8D00-41D4DA9EF57D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00357BB9-A59B-45C3-8CC3-EABF15D83070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00357BB9-A59B-45C3-8CC3-EABF15D83070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00357BB9-A59B-45C3-8CC3-EABF15D83070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00357BB9-A59B-45C3-8CC3-EABF15D83070}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3EBF479-D265-40C4-8498-5FAC374458E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3EBF479-D265-40C4-8498-5FAC374458E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3EBF479-D265-40C4-8498-5FAC374458E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3EBF479-D265-40C4-8498-5FAC374458E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DF48E29-9FE6-4EE5-8549-5F7EA2A12BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DF48E29-9FE6-4EE5-8549-5F7EA2A12BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DF48E29-9FE6-4EE5-8549-5F7EA2A12BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DF48E29-9FE6-4EE5-8549-5F7EA2A12BCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACFE6823-9615-4490-91C9-968538006BD9}
+	EndGlobalSection
+EndGlobal

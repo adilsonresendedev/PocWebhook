@@ -1,0 +1,6 @@
+@PocWebhook.ApiCRM_HostAddress = http://localhost:5195
+
+GET {{PocWebhook.ApiCRM_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
